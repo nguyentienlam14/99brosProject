@@ -2,6 +2,7 @@
   "name": "react",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://nguyentienlam14.github.io/99brosProject",
   "dependencies": {
     "@popperjs/core": "^2.11.5",
     "@reduxjs/toolkit": "^1.8.3",
@@ -26,9 +27,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "react-scripts": "^5.0.1"
   },
   "browserslist": {

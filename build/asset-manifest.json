@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/99brosProject/static/css/main.ae754afe.css",
+    "main.js": "/99brosProject/static/js/main.50113388.js",
+    "index.html": "/99brosProject/index.html",
+    "main.ae754afe.css.map": "/99brosProject/static/css/main.ae754afe.css.map",
+    "main.50113388.js.map": "/99brosProject/static/js/main.50113388.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae754afe.css",
+    "static/js/main.50113388.js"
+  ]
+}
